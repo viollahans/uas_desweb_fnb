@@ -1,3 +1,4 @@
+html
 <nav>
             <div class="main_container">
                 <div class="menu">LOGO</div>
@@ -8,3 +9,34 @@
                 <div class="menu">PROFILE</div>
             </div>
         </nav>
+        
+style
+nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 60px;
+      background-color: black;
+      z-index: 1;
+    }
+    
+    nav .main_container {
+      position: relative;
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      font-size: large;
+    }
+    
+    nav .main_container .menu {
+      position: relative;
+      height: calc(100% - 25px);
+      padding-left: 10px;
+      padding-right: 15px;
+      padding-top: 12px;
+      float: right;
+      color: white;
+      cursor: pointer;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
