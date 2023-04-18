@@ -1,0 +1,10 @@
+<nav>
+            <div class="main_container">
+                <div class="menu">LOGO</div>
+                <div class="menu">NEWS</div>
+                <div class="menu">TRENDS</div>
+                <div class="menu">CONTRIBUTE</div>
+                <div class="menu">SEARCH</div>
+                <div class="menu">PROFILE</div>
+            </div>
+        </nav>
